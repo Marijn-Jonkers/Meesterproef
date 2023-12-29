@@ -280,27 +280,6 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
---- !u!1 &318646527 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1922717240699978777, guid: d37dd75a1a2ad7b43a4c77906ed8b81c, type: 3}
-  m_PrefabInstance: {fileID: 8273271402754003264}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &318646530
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 318646527}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5929c980a443bd5449a5c8c44243408a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parent: {fileID: 2040260943}
-  child: {fileID: 807808875}
-  childPos: {x: -0.1924, y: 0.1714, z: -0.0947}
-  childRot: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &427762281 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4017456777283232152, guid: 4f9a175e34b4abd478b0fd98b17b4eb8, type: 3}
@@ -321,16 +300,11 @@ MonoBehaviour:
   parent: {fileID: 501989664}
   child: {fileID: 1813861930}
   childPos: {x: -0.0915, y: 0.1768, z: -0.0102}
-  childRot: {x: 0, y: 0, z: 0, w: 0}
+  childRot: {x: 0, y: 0, z: 0}
 --- !u!1 &501989664 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2305478891111277866, guid: 4f12f06b84c4cc04cb4f73b108d86b2e, type: 3}
   m_PrefabInstance: {fileID: 4189542446312584810}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &807808875 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1210019877386808752, guid: d37dd75a1a2ad7b43a4c77906ed8b81c, type: 3}
-  m_PrefabInstance: {fileID: 8273271402754003264}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &908197479 stripped
 GameObject:
@@ -357,7 +331,7 @@ MonoBehaviour:
   parent: {fileID: 2069151736}
   child: {fileID: 908197479}
   childPos: {x: -0.0275, y: 0.1579, z: -0.0069}
-  childRot: {x: 0, y: 0, z: 0, w: 0}
+  childRot: {x: 0, y: 0, z: 0}
 --- !u!1 &1083205182 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7013829862195349271, guid: 3685b1608e6c1c849a63287cc24e7e62, type: 3}
@@ -378,33 +352,7 @@ MonoBehaviour:
   parent: {fileID: 2040260943}
   child: {fileID: 191177707}
   childPos: {x: 0.2036, y: -0.1664, z: 0.1055}
-  childRot: {x: 0, y: 0, z: 0, w: 0}
---- !u!1 &1300585471 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5523674368700952107, guid: 3685b1608e6c1c849a63287cc24e7e62, type: 3}
-  m_PrefabInstance: {fileID: 4036200472593164626}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &1300585476
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1300585471}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0010383753, y: 0.0014640706, z: 0.00032171718}
-  m_Center: {x: 0.0017999802, y: -0.0018158472, z: 0.0025309306}
+  childRot: {x: 0, y: 0, z: 0}
 --- !u!1001 &1444363495
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -702,7 +650,7 @@ MonoBehaviour:
   parent: {fileID: 2069151736}
   child: {fileID: 1709317806}
   childPos: {x: 0.1584, y: -0.3751, z: -0.0073}
-  childRot: {x: 0, y: 0, z: 0, w: 0}
+  childRot: {x: 0, y: 0, z: 0}
 --- !u!1 &1709317806 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2109247873786551479, guid: 35787dc012b04ea4393747566e8cd8a6, type: 3}
@@ -914,6 +862,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -2350786572356730115, guid: 3685b1608e6c1c849a63287cc24e7e62, type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2350786572356730115, guid: 3685b1608e6c1c849a63287cc24e7e62, type: 3}
       propertyPath: m_CollisionDetection
       value: 1
       objectReference: {fileID: 0}
@@ -978,7 +930,6 @@ PrefabInstance:
       value: TrapperL
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 3201986851833332023, guid: 3685b1608e6c1c849a63287cc24e7e62, type: 3}
     - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -986,9 +937,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 718404682891764535, guid: 3685b1608e6c1c849a63287cc24e7e62, type: 3}
       insertIndex: -1
       addedObject: {fileID: 191177710}
-    - targetCorrespondingSourceObject: {fileID: 5523674368700952107, guid: 3685b1608e6c1c849a63287cc24e7e62, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1300585476}
     - targetCorrespondingSourceObject: {fileID: 7013829862195349271, guid: 3685b1608e6c1c849a63287cc24e7e62, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1083205185}
@@ -1286,6 +1234,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6223252942098169817, guid: d37dd75a1a2ad7b43a4c77906ed8b81c, type: 3}
+      propertyPath: m_IncludeLayers.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1210019877386808752, guid: d37dd75a1a2ad7b43a4c77906ed8b81c, type: 3}
       propertyPath: m_Name
       value: Rechter Pedaal
@@ -1296,7 +1248,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1472604444378818796, guid: d37dd75a1a2ad7b43a4c77906ed8b81c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.4487708
+      value: 1.634
       objectReference: {fileID: 0}
     - target: {fileID: 1472604444378818796, guid: d37dd75a1a2ad7b43a4c77906ed8b81c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1338,21 +1290,14 @@ PrefabInstance:
       propertyPath: m_TagString
       value: TrapperR
       objectReference: {fileID: 0}
-    - target: {fileID: 6603439677293377479, guid: d37dd75a1a2ad7b43a4c77906ed8b81c, type: 3}
-      propertyPath: m_ExcludeLayers.m_Bits
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6603439677293377479, guid: d37dd75a1a2ad7b43a4c77906ed8b81c, type: 3}
-      propertyPath: m_IncludeLayers.m_Bits
-      value: 4294967295
-      objectReference: {fileID: 0}
+    - target: {fileID: 1928855183987098391, guid: d37dd75a1a2ad7b43a4c77906ed8b81c, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 2040260943}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1922717240699978777, guid: d37dd75a1a2ad7b43a4c77906ed8b81c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 318646530}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d37dd75a1a2ad7b43a4c77906ed8b81c, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
