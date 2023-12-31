@@ -22,6 +22,7 @@ public class ParentToWithInteraction : MonoBehaviour
             child.transform.SetParent(parent.transform);
             child.transform.localPosition = childPos;
             child.transform.localRotation = Quaternion.Euler(childRot);
+            child.GetComponent<FollowRotation>().enabled = true;
             Destroy(other.gameObject);
             Destroy(gameObject);
         }
