@@ -7,7 +7,6 @@ public class ParentToWithInteraction : MonoBehaviour
 {
     public GameObject self;
     public GameObject target;
-    public bool DeleteCollider = false;
     [Optional]
     public Collider Collider;
     void Start()
@@ -20,7 +19,7 @@ public class ParentToWithInteraction : MonoBehaviour
         {
             target.SetActive(true);
             self.SetActive(false);
-            if(DeleteCollider == true)
+            if (Collider != null)
             {
                 Destroy(Collider);
             }

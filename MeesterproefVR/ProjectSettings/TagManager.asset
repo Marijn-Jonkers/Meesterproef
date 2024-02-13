@@ -13,6 +13,7 @@ TagManager:
   - InsertionPoint
   - PathStart
   - PathEnd
+  - SnapPoint
   layers:
   - Default
   - TransparentFX
