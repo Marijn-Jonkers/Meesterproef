@@ -117,13 +117,11 @@ GameObject:
   - component: {fileID: 8018649601558168169}
   - component: {fileID: 4539394621722626467}
   - component: {fileID: 4842787952956058489}
-  - component: {fileID: 7899024154926264607}
   - component: {fileID: 5840506093958462306}
   - component: {fileID: 7017079254065150670}
-  - component: {fileID: 4370166209889580848}
   m_Layer: 7
   m_Name: Linker Pedaal
-  m_TagString: SnapPoint
+  m_TagString: TrapperL
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -153,7 +151,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2043347116633945238}
   serializedVersion: 4
-  m_Mass: 2
+  m_Mass: 70
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -214,18 +212,6 @@ MonoBehaviour:
   _twoGrabTransformer: {fileID: 0}
   _targetTransform: {fileID: 0}
   _maxGrabPoints: 2
---- !u!114 &7899024154926264607
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2043347116633945238}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 363104ecf0ca3ae47a45916bb6fec47c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &5840506093958462306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -262,19 +248,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.1, y: 0.1, z: 0.1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4370166209889580848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2043347116633945238}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 295263fc6bfbb2942ac0d6ab37520f76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Rot: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &3823412542797952171
 GameObject:
   m_ObjectHideFlags: 0

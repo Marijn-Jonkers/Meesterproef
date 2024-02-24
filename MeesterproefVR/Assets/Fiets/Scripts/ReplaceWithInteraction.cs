@@ -1,14 +1,15 @@
 using Oculus.Interaction;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ParentToWithInteraction : MonoBehaviour
+public class ReplaceWithInteraction : MonoBehaviour
 {
     public GameObject self;
     public GameObject target;
-    [Optional]
-    public Collider Collider;
+    public Collider colliderToDestroy;
+
     void Start()
     {
     }
@@ -17,11 +18,12 @@ public class ParentToWithInteraction : MonoBehaviour
     {
         if (other.gameObject.tag == gameObject.tag)
         {
+            Debug.Log("Triggered");
             target.SetActive(true);
-            self.SetActive(false);
-            if (Collider != null)
+            Destroy(self);
+            if (colliderToDestroy != null)
             {
-                Destroy(Collider);
+                Destroy(colliderToDestroy.gameObject);
             }
         }
     }

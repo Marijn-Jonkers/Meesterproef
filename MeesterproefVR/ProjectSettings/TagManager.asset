@@ -10,10 +10,9 @@ TagManager:
   - Voorwiel
   - TrapperR
   - TrapperL
-  - InsertionPoint
-  - PathStart
-  - PathEnd
-  - SnapPoint
+  - Spatbord
+  - Hook1
+  - Hook2
   layers:
   - Default
   - TransparentFX

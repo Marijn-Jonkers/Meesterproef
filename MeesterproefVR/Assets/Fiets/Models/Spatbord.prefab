@@ -12,13 +12,11 @@ GameObject:
   - component: {fileID: 7622046965722039926}
   - component: {fileID: 8837105603489049405}
   - component: {fileID: 7788468028769455850}
-  - component: {fileID: 5812795573315905069}
   - component: {fileID: 2174615581250414952}
   - component: {fileID: 8269129820641676793}
-  - component: {fileID: 7563998692769935970}
   m_Layer: 7
   m_Name: Spatbord
-  m_TagString: Untagged
+  m_TagString: Spatbord
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48,7 +46,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1810876536590462676}
   serializedVersion: 4
-  m_Mass: 3
+  m_Mass: 500
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -109,18 +107,6 @@ MonoBehaviour:
   _twoGrabTransformer: {fileID: 0}
   _targetTransform: {fileID: 0}
   _maxGrabPoints: 2
---- !u!114 &5812795573315905069
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1810876536590462676}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 363104ecf0ca3ae47a45916bb6fec47c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2174615581250414952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,7 +132,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 4294967295
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -157,19 +143,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.2, y: 0.2, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7563998692769935970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1810876536590462676}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 295263fc6bfbb2942ac0d6ab37520f76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Rot: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &4329515263223705190
 GameObject:
   m_ObjectHideFlags: 0
@@ -181,6 +154,7 @@ GameObject:
   - component: {fileID: 7739053096820514785}
   - component: {fileID: 6729404119466071856}
   - component: {fileID: 6086004978376534192}
+  - component: {fileID: 1930183247446610351}
   m_Layer: 0
   m_Name: Spatbord Voor
   m_TagString: Untagged
@@ -197,8 +171,8 @@ Transform:
   m_GameObject: {fileID: 4329515263223705190}
   serializedVersion: 2
   m_LocalRotation: {x: -0.00000003774895, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.991, y: -0.075, z: -0.0663}
-  m_LocalScale: {x: 0.79, y: 0.79, z: 0.5988736}
+  m_LocalPosition: {x: -0.92, y: -0.0729, z: -0.061}
+  m_LocalScale: {x: 0.73413914, y: 0.73413914, z: 0.55652726}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7312822787264382767}
@@ -253,6 +227,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1930183247446610351
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4329515263223705190}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 181584163755328778, guid: 9b47ca9c9fc2d5f4e9cf268a425701b6, type: 3}
 --- !u!1 &4675286079476559371
 GameObject:
   m_ObjectHideFlags: 0

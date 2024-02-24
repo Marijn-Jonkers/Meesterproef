@@ -1,12 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class FollowRotation : MonoBehaviour
 {
     public GameObject Parent;
     public float Factor = 1;
-
 
     void Start()
     {

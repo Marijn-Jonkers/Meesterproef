@@ -9,6 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 55daccc09a3b69647bbab145b54a3ab3
   - enabled: 1
+    path: Assets/Fiets/Home.unity
+    guid: 1def572d2f744254ab8c72e419ce56db
+  - enabled: 1
+    path: Assets/Fiets/Passtrough.unity
+    guid: e26559304ac4d4e42adaa321049146bf
+  - enabled: 1
+    path: Assets/Fiets/Tutorial.unity
+    guid: 8663d5bb90e57c14d8f612384b0b5e40
+  - enabled: 1
+    path: Assets/Fiets/VR.unity
+    guid: d86e78c59c9442641a9b9df3187d8b3b
+  - enabled: 0
     path: Assets/Fiets/Fiets.unity
     guid: 5ebd951fe71322244a942ccad6df5f9f
   m_configObjects:
